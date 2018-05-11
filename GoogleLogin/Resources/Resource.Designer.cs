@@ -41,6 +41,22 @@ namespace GoogleLogin
 			}
 		}
 		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int google_play_services_version = 2130903040;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -60,8 +76,11 @@ namespace GoogleLogin
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040001
+			public const int app_name = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int common_google_play_services_unknown_issue = 2130968576;
 			
 			static String()
 			{
